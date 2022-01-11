@@ -1,9 +1,9 @@
   <h1 align="center">Hi 👋, I'm Paschal</h1>
-<h3 align="center">Friendly / Blithe / Introvert... passionate about learning new things</h3>
+<h3 align="center">Friendly / Blithe / Introvert... passionate about learning</h3>
 
 <p align="left"> <a href="https://twitter.com/dev_paschal" target="blank"><img src="https://img.shields.io/twitter/follow/dev_paschal?logo=twitter&style=for-the-badge" alt="dev_paschal" /></a> </p>
 
-- 🌱 I’m currently learning **learnig everything 🤣**
+- 🌱 I’m currently learning **MERN Stack web development and Blockchain development**
 
 - 👯 I’m looking to collaborate **with other content creators**
 

@@ -7,7 +7,7 @@
 
 - 👯 I’m looking to collaborate **with other content creators**
 
-- 💬 Ask me about **react nextjs expressjs firebase**
+- 💬 Ask me about **react nextjs expressjs firebase solidity and web3**
 
 - 📫 How to reach me **okwuosahpaschal@gmail.com**
 

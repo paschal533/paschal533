@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://twitter.com/dev_paschal" target="blank"><img src="https://img.shields.io/twitter/follow/dev_paschal?logo=twitter&style=for-the-badge" alt="dev_paschal" /></a> </p>
 
-- 🌱 I am a passionate **MERN Stack and Blockchain developer**
+- 🌱 I am a passionate **MERN Stack and Blockchain developer || Technical writer**
 
 - 👯 I’m looking to collaborate **with other content creators**
 

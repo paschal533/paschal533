@@ -49,7 +49,7 @@ const paschal: PeerNode = {
 │  SWARM STATUS · multiplexed · streams open                             │
 │════════════════════════════════════════════════════════════════════════│
 │                                                                        │
-│  /libp2p/maintain     ──►  js-libp2p · gossipsub, webrtc, kad-dht      │
+│  /libp2p/contribute     ──►  js-libp2p · gossipsub, webrtc, kad-dht      │
 │                            connection-manager hardening + reviews      │
 │                                                                        │
 │  /noise-pq/research    ──►  Hybrid post-quantum Noise handshake        │
@@ -63,7 +63,7 @@ const paschal: PeerNode = {
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
-[![js-libp2p](https://img.shields.io/badge/Maintaining-js--libp2p-fe5000?style=flat-square)](https://github.com/libp2p/js-libp2p)
+[![js-libp2p](https://img.shields.io/badge/Contributing-js--libp2p-fe5000?style=flat-square)](https://github.com/libp2p/js-libp2p)
 [![PQC](https://img.shields.io/badge/Researching-Post--Quantum_Noise-6e00ff?style=flat-square)](https://github.com/libp2p/specs/pull/716)
 [![Logos](https://img.shields.io/badge/Contributing-Logos_Execution_Zone-00d4aa?style=flat-square)](https://github.com/logos-blockchain/logos-execution-zone)
 [![FundBrave](https://img.shields.io/badge/Founding-FundBrave-0090FF?style=flat-square)](https://github.com/FundBrave/FundBrave)

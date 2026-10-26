@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:fe5000,100:00d4aa&height=200&section=header&text=Paschal%20Okwuosa&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Protocol%20Engineer%20%C2%B7%20P2P%20Networking%20%C2%B7%20Decentralized%20Infrastructure&descAlignY=60&descSize=16&animation=fadeIn" width="100%" />
 
 <a href="https://github.com/paschal533">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FE5000&center=true&vCenter=true&width=720&lines=js-libp2p+Contributor+%40+Protocol+Labs;Building+the+peer-to-peer+web%2C+one+protocol+at+a+time;Post-Quantum+Cryptography+%E2%9C%A6+libp2p+%E2%9C%A6+DeFi;PLDG+Contributor+%5BCohort+0+%E2%86%92+5%5D+%C2%B7+Times+Square+feature;Co-founder+%40+FundBrave+%E2%80%94+Social-DeFi+on+Base;Dial%2C+Mux%2C+Encrypt%2C+Route.+Repeat." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FE5000&center=true&vCenter=true&width=720&lines=js-libp2p+Contributor+%40+Protocol+Labs;Building+the+peer-to-peer+web%2C+one+protocol+at+a+time;Post-Quantum+Cryptography+%E2%9C%A6+libp2p+%E2%9C%A6+DeFi;Hybrid+PQ+Noise+%C2%B7+JS+%C2%B7+Python+%C2%B7+Nim+%C2%B7+Rust;PLDG+Contributor+%5BCohort+0+%E2%86%92+5%5D+%C2%B7+Times+Square+feature;Co-founder+%40+FundBrave+%E2%80%94+Social-DeFi+on+Base;Dial%2C+Mux%2C+Encrypt%2C+Route.+Repeat." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -46,25 +46,30 @@ const paschal: PeerNode = {
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│  SWARM STATUS · multiplexed · streams open                             │
-│════════════════════════════════════════════════════════════════════════│
-│                                                                        │
-│  /libp2p/contribute     ──►  js-libp2p · gossipsub, webrtc, kad-dht      │
-│                            connection-manager hardening + reviews      │
-│                                                                        │
-│  /noise-pq/research    ──►  Hybrid post-quantum Noise handshake        │
-│                            ML-KEM-768 · spec + py/js implementations   │
-│                                                                        │
-│  /logos/infra          ──►  Logos Execution Zone sequencer (Rust)      │
-│                            RPC, receipts, fork mode · Africa circles    │
-│                                                                        │
-│  /fundbrave/build      ──►  Social-DeFi fundraising on Base            │
-│                            regenerative split · staking · embedded AA  │
+│  SWARM STATUS · multiplexed · streams open                           │
+│══════════════════════════════════════════════════════════════════════│
+│                                                                      │
+│  /noise-pq/ship      ──►  Hybrid PQ Noise: X25519 + ML-KEM-768       │
+│                           js · py · nim · rust · interop 48/48       │
+│                           landing in js-libp2p first (#3683)         │
+│                                                                      │
+│  /pq-discovery       ──►  Post-quantum identity for Ethereum ENRs    │
+│                           discv5 · go-ethereum · 300-byte budget     │
+│                                                                      │
+│  /pqc/liboqs         ──►  QR-UOV signatures: CI + KAT coverage       │
+│                           shipped in liboqs #2582                    │
+│                                                                      │
+│  /libp2p/contribute  ──►  js · py · unified-testing                  │
+│                           webrtc, gossipsub, conn-manager, interop   │
+│                                                                      │
+│  /logos/infra        ──►  Basecamp UI · Execution Zone (Rust)        │
+│                                                                      │
+│  /fundbrave/build    ──►  Social-DeFi fundraising on Base            │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
 [![js-libp2p](https://img.shields.io/badge/Contributing-js--libp2p-fe5000?style=flat-square)](https://github.com/libp2p/js-libp2p)
-[![PQC](https://img.shields.io/badge/Researching-Post--Quantum_Noise-6e00ff?style=flat-square)](https://github.com/libp2p/specs/pull/716)
+[![PQC](https://img.shields.io/badge/Shipping-Post--Quantum_Noise-6e00ff?style=flat-square)](https://github.com/paschal533/pq-noise-artifacts)
 [![Logos](https://img.shields.io/badge/Contributing-Logos_Execution_Zone-00d4aa?style=flat-square)](https://github.com/logos-blockchain/logos-execution-zone)
 [![FundBrave](https://img.shields.io/badge/Founding-FundBrave-0090FF?style=flat-square)](https://github.com/FundBrave/FundBrave)
 
@@ -72,15 +77,18 @@ const paschal: PeerNode = {
 
 ## 🌐 Open-Source Footprint
 
-> **120 pull requests · 68 merged** across **18 organizations** — from protocol internals to whole-stack dApps.
+> **140 pull requests · 80 merged** across **25 organizations and projects** — from protocol internals to whole-stack dApps.
 
 | 🏛️ Project | 🔩 What I shipped | 🏷️ Role |
 |---|---|---|
 | [**libp2p / js-libp2p**](https://github.com/libp2p/js-libp2p) | Core networking work — [gossipsub direct-peer API](https://github.com/libp2p/js-libp2p/pull/3529), [WebRTC terminal-state fixes](https://github.com/libp2p/js-libp2p/pull/3461), [connection-manager per-address timeouts](https://github.com/libp2p/js-libp2p/pull/3412), [registrar disconnect correctness](https://github.com/libp2p/js-libp2p/pull/3376), kad-dht dialing improvements *(18 PRs)* | **Contributor** |
-| [**libp2p / py-libp2p**](https://github.com/libp2p/py-libp2p) | [Yamux as default multiplexer](https://github.com/libp2p/py-libp2p/pull/538), [Windows support via coincurve](https://github.com/libp2p/py-libp2p/pull/508), [GossipSub ↔ FloodSub peer propagation](https://github.com/libp2p/py-libp2p/pull/893), [Yamux FIN/RST handling](https://github.com/libp2p/py-libp2p/pull/1014) *(17 PRs)* | **Contributor** |
-| [**libp2p / specs**](https://github.com/libp2p/specs/pull/716) | [`noise-pq`](https://github.com/libp2p/specs/pull/716) — `Noise_XXhfs_25519+XWing_ChaChaPoly_SHA256` post-quantum handshake specification | **Spec Author** |
-| [**ChainSafe / js-libp2p-noise**](https://github.com/ChainSafe/js-libp2p-noise/pull/665) | [Hybrid post-quantum Noise handshake](https://github.com/ChainSafe/js-libp2p-noise/pull/665) — ML-KEM-768 reference implementation | **Researcher** |
+| [**libp2p / py-libp2p**](https://github.com/libp2p/py-libp2p) | [Experimental post-quantum Noise transport](https://github.com/libp2p/py-libp2p/pull/1310) (XXhfs + ML-KEM-768, transcript binding, 286 PQ tests), [Yamux as default multiplexer](https://github.com/libp2p/py-libp2p/pull/538), [Windows support via coincurve](https://github.com/libp2p/py-libp2p/pull/508), [GossipSub ↔ FloodSub peer propagation](https://github.com/libp2p/py-libp2p/pull/893), [Yamux FIN/RST handling](https://github.com/libp2p/py-libp2p/pull/1014) *(18 PRs)* | **Contributor** |
+| **Post-quantum Noise for libp2p** | `Noise_XXhfs_25519+MLKEM768_ChaChaPoly_SHA256` in four stacks, 48/48 bidirectional interop ([artifacts](https://github.com/paschal533/pq-noise-artifacts)) — [js-libp2p proposal](https://github.com/libp2p/js-libp2p/issues/3683) + [reference impl](https://github.com/ChainSafe/js-libp2p-noise/pull/665) · [nim-libp2p NoiseHFS](https://github.com/iftech/nim-libp2p/pull/2811) · [rust-libp2p interop + benchmarks](https://github.com/royzah/rust-libp2p/pull/1) · spec work on [specs#727](https://github.com/libp2p/specs/pull/727) ([downgrade security considerations](https://github.com/royzah/specs/pull/1), earlier draft [#716](https://github.com/libp2p/specs/pull/716)) | **Researcher / Implementer** |
+| [**Open Quantum Safe / liboqs**](https://github.com/open-quantum-safe/liboqs/pull/2582) | [QR-UOV CI](https://github.com/0rlych1kk4/liboqs/pull/1): KAT digests, implementation-coverage guard, ref/opt/avx2 matrix, shipped with the [QR-UOV integration](https://github.com/open-quantum-safe/liboqs/pull/2582) | **Contributor** |
+| **Ethereum peer discovery** | Post-quantum ENR research → [discv5: skip records with unsupported identity schemes](https://github.com/sigp/discv5/pull/315) · [go-ethereum: distinct error for unknown identity scheme](https://github.com/ethereum/go-ethereum/pull/35714) | **Researcher** |
+| [**libp2p / unified-testing**](https://github.com/libp2p/unified-testing) | Interop harness fixes — [SIGTERM handling](https://github.com/libp2p/unified-testing/pull/38), [results pipeline cleanup](https://github.com/libp2p/unified-testing/pull/33), [rust-v0.56 webrtc-direct](https://github.com/libp2p/unified-testing/pull/53) | **Contributor** |
 | [**libp2p / universal-connectivity-workshop**](https://github.com/libp2p/universal-connectivity-workshop) | [Py-libp2p workshop track](https://github.com/libp2p/universal-connectivity-workshop/pull/3) + [Go](https://github.com/libp2p/universal-connectivity-workshop/pull/13) / [JVM](https://github.com/libp2p/universal-connectivity-workshop/pull/15) / [.NET](https://github.com/libp2p/universal-connectivity-workshop/pull/19) tracks | **Project Lead** |
+| [**Logos / logos-basecamp**](https://github.com/logos-co/logos-basecamp) | [Surface `ui_qml` load failures with the error text](https://github.com/logos-co/logos-basecamp/pull/493) (approved) | **Contributor** |
 | [**Logos / logos-execution-zone**](https://github.com/logos-blockchain/logos-execution-zone) | Sequencer internals (Rust) — [persistent receipt store](https://github.com/logos-blockchain/logos-execution-zone/pull/442), [`simulate_transaction` RPC](https://github.com/logos-blockchain/logos-execution-zone/pull/443), [local fork mode](https://github.com/logos-blockchain/logos-execution-zone/pull/445), typed error handling | **Contributor** |
 | [**FIL-Builders / onramp-contracts**](https://github.com/FIL-Builders/onramp-contracts) | [Comprehensive test suite](https://github.com/FIL-Builders/onramp-contracts/pull/26) for DestChain / SourceChain bridge contracts | **Contributor** |
 | [**IPFS / Helia**](https://github.com/ipfs-examples/helia-examples) | [Remix](https://github.com/ipfs-examples/helia-examples/pull/368) & [Angular](https://github.com/ipfs-examples/helia-examples/pull/309) framework examples | **Contributor** |

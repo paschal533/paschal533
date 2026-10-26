@@ -61,7 +61,7 @@ const paschal: PeerNode = {
 │  /libp2p/contribute  ──►  js · py · unified-testing                  │
 │                           webrtc, gossipsub, conn-manager, interop   │
 │                                                                      │
-│  /logos/infra        ──►  Basecamp UI · Execution Zone (Rust)        │
+│  /logos/infra        ──►  Basecamp UI · Qt/QML                       │
 │                                                                      │
 │  /fundbrave/build    ──►  Social-DeFi fundraising on Base            │
 └──────────────────────────────────────────────────────────────────────┘
@@ -69,7 +69,7 @@ const paschal: PeerNode = {
 
 [![js-libp2p](https://img.shields.io/badge/Contributing-js--libp2p-fe5000?style=flat-square)](https://github.com/libp2p/js-libp2p)
 [![PQC](https://img.shields.io/badge/Shipping-Post--Quantum_Noise-6e00ff?style=flat-square)](https://github.com/paschal533/pq-noise-artifacts)
-[![Logos](https://img.shields.io/badge/Contributing-Logos_Execution_Zone-00d4aa?style=flat-square)](https://github.com/logos-blockchain/logos-execution-zone)
+[![Logos](https://img.shields.io/badge/Contributing-Logos_Basecamp-00d4aa?style=flat-square)](https://github.com/logos-co/logos-basecamp)
 [![FundBrave](https://img.shields.io/badge/Founding-FundBrave-0090FF?style=flat-square)](https://github.com/FundBrave/FundBrave)
 
 </div>
@@ -88,7 +88,6 @@ const paschal: PeerNode = {
 | [**libp2p / unified-testing**](https://github.com/libp2p/unified-testing) | Interop harness fixes — [SIGTERM handling](https://github.com/libp2p/unified-testing/pull/38), [results pipeline cleanup](https://github.com/libp2p/unified-testing/pull/33), [rust-v0.56 webrtc-direct](https://github.com/libp2p/unified-testing/pull/53) | **Contributor** |
 | [**libp2p / universal-connectivity-workshop**](https://github.com/libp2p/universal-connectivity-workshop) | [Py-libp2p workshop track](https://github.com/libp2p/universal-connectivity-workshop/pull/3) + [Go](https://github.com/libp2p/universal-connectivity-workshop/pull/13) / [JVM](https://github.com/libp2p/universal-connectivity-workshop/pull/15) / [.NET](https://github.com/libp2p/universal-connectivity-workshop/pull/19) tracks | **Project Lead** |
 | [**Logos / logos-basecamp**](https://github.com/logos-co/logos-basecamp) | [Surface `ui_qml` load failures with the error text](https://github.com/logos-co/logos-basecamp/pull/493) (approved) | **Contributor** |
-| [**Logos / logos-execution-zone**](https://github.com/logos-blockchain/logos-execution-zone) | Sequencer internals (Rust) — [persistent receipt store](https://github.com/logos-blockchain/logos-execution-zone/pull/442), [`simulate_transaction` RPC](https://github.com/logos-blockchain/logos-execution-zone/pull/443), [local fork mode](https://github.com/logos-blockchain/logos-execution-zone/pull/445), typed error handling | **Contributor** |
 | [**FIL-Builders / onramp-contracts**](https://github.com/FIL-Builders/onramp-contracts) | [Comprehensive test suite](https://github.com/FIL-Builders/onramp-contracts/pull/26) for DestChain / SourceChain bridge contracts | **Contributor** |
 | [**IPFS / Helia**](https://github.com/ipfs-examples/helia-examples) | [Remix](https://github.com/ipfs-examples/helia-examples/pull/368) & [Angular](https://github.com/ipfs-examples/helia-examples/pull/309) framework examples | **Contributor** |
 | [**FundBrave**](https://github.com/FundBrave/FundBrave) | Co-founder & lead — smart contracts, auth + OTP, AI service, donation/staking engine *(26 PRs)* · 🏆 hackathon-winning Social-DeFi platform | **Co-founder / Lead** |

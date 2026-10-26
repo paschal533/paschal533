@@ -12,8 +12,7 @@
 [![Protocol Labs](https://img.shields.io/badge/Protocol_Labs-PLDG_Contributor-0090FF?style=for-the-badge&logo=protocolsdotio&logoColor=white)](https://pl.dev/)
 [![libp2p](https://img.shields.io/badge/Contributor-js--libp2p-fe5000?style=for-the-badge&logo=libp2p&logoColor=white)](https://github.com/libp2p/js-libp2p)
 [![Email](https://img.shields.io/badge/Email-okwuosahpaschal-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:okwuosahpaschal@gmail.com)
-<!-- Update the LinkedIn + Blog links below with your real handles, then delete this comment -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-handle)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paschal-okwuosa-0863791b9)
 
 </div>
 
